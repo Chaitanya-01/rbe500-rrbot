@@ -1,0 +1,15 @@
+0000000000000000000000000000000000000000 886a4a28089172b796a47890f98d10e8d96d0076 shivasurya1999 <64098184+shivasurya1999@users.noreply.github.com> 1669622316 -0500	commit (initial): Initial commit
+886a4a28089172b796a47890f98d10e8d96d0076 f00c9b865094f0c6b639b0a18459e5128ee2653d shivasurya1999 <64098184+shivasurya1999@users.noreply.github.com> 1669678651 -0500	commit: Update main_controller.cpp
+f00c9b865094f0c6b639b0a18459e5128ee2653d 488a4c0d1f5df7760261773d6abac857186b0d9b shivasurya1999 <64098184+shivasurya1999@users.noreply.github.com> 1669678867 -0500	commit: tutorial_interfaces
+488a4c0d1f5df7760261773d6abac857186b0d9b d98291cae6a3af542840156e71f6376a6fa28fe4 shivasurya1999 <64098184+shivasurya1999@users.noreply.github.com> 1669688577 -0500	commit: changes nov 28
+d98291cae6a3af542840156e71f6376a6fa28fe4 12d8488dcb3bf04e46fc4adce5ea2ec6280a705f shivasurya1999 <64098184+shivasurya1999@users.noreply.github.com> 1669860651 -0500	commit: working controller 30 nov
+12d8488dcb3bf04e46fc4adce5ea2ec6280a705f fc3d4c2b5b68b03649c251ebaa0a20160de57110 shivasurya1999 <64098184+shivasurya1999@users.noreply.github.com> 1669954276 -0500	commit: dec 1 prefinal
+fc3d4c2b5b68b03649c251ebaa0a20160de57110 82e7bf0fef95fc5fbf1bd6cf5dd3a29155287a90 shivasurya1999 <64098184+shivasurya1999@users.noreply.github.com> 1669958034 -0500	commit: Final files
+82e7bf0fef95fc5fbf1bd6cf5dd3a29155287a90 b5cade86449289289fff44b02aeeea1e0cdd96e1 shivasurya1999 <64098184+shivasurya1999@users.noreply.github.com> 1669967546 -0500	commit: SCARA robot control latest files
+b5cade86449289289fff44b02aeeea1e0cdd96e1 e9bf69a3634cb1f11bc30a617dd5f86e7c08b78b shivasurya1999 <64098184+shivasurya1999@users.noreply.github.com> 1670049598 -0500	commit: RBE500 Final Part 2
+e9bf69a3634cb1f11bc30a617dd5f86e7c08b78b b5cade86449289289fff44b02aeeea1e0cdd96e1 shivasurya1999 <64098184+shivasurya1999@users.noreply.github.com> 1670049604 -0500	reset: moving to b5cade86449289289fff44b02aeeea1e0cdd96e1
+b5cade86449289289fff44b02aeeea1e0cdd96e1 a3bd82aa1307fc2cd6780bf30a855eac121d7782 shivasurya1999 <64098184+shivasurya1999@users.noreply.github.com> 1670900695 -0500	pull --ff --recurse-submodules --progress origin: Fast-forward
+a3bd82aa1307fc2cd6780bf30a855eac121d7782 8dc1e37c757b2c44c91738dc6b039b8e08056665 shivasurya1999 <64098184+shivasurya1999@users.noreply.github.com> 1670900709 -0500	commit: with velocity controller
+8dc1e37c757b2c44c91738dc6b039b8e08056665 3c5fa595efc51a669155ee8375cf2011cbafad4c shivasurya1999 <64098184+shivasurya1999@users.noreply.github.com> 1670961041 -0500	commit: Tuned velocity control values
+3c5fa595efc51a669155ee8375cf2011cbafad4c b0537fd3fe548ff86d6ef5e7dfc78503fa359394 shivasurya1999 <64098184+shivasurya1999@users.noreply.github.com> 1671067940 -0500	commit: with tutorial_interfaces package
+b0537fd3fe548ff86d6ef5e7dfc78503fa359394 7c70c6006fd37d5cb23e830a505d33eb38eb933a shivasurya1999 <64098184+shivasurya1999@users.noreply.github.com> 1671072864 -0500	commit: latest tuned vel controller
