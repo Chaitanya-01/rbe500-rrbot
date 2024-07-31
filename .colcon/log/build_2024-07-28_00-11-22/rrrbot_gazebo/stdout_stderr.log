@@ -1,0 +1,80 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found tutorial_interfaces: 0.0.0 (/overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+-- Found controller_manager_msgs: 2.41.0 (/opt/ros/humble/share/controller_manager_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /overlay_ws/build/rrrbot_gazebo
+[ 25%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/position_publisher.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/pos_control.dir/src/position_control.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/switch.dir/src/controller_switch.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/main_control.dir/src/main_controller.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable switch[0m
+[ 62%] Built target switch
+[ 75%] [32m[1mLinking CXX executable publisher[0m
+[ 75%] Built target publisher
+[ 87%] [32m[1mLinking CXX executable pos_control[0m
+[100%] [32m[1mLinking CXX executable main_control[0m
+[100%] Built target pos_control
+[100%] Built target main_control
+-- Install configuration: ""
+-- Installing: /overlay_ws/install/rrrbot_gazebo/lib/rrrbot_gazebo/publisher
+-- Set runtime path of "/overlay_ws/install/rrrbot_gazebo/lib/rrrbot_gazebo/publisher" to ""
+-- Installing: /overlay_ws/install/rrrbot_gazebo/lib/rrrbot_gazebo/switch
+-- Set runtime path of "/overlay_ws/install/rrrbot_gazebo/lib/rrrbot_gazebo/switch" to ""
+-- Installing: /overlay_ws/install/rrrbot_gazebo/lib/rrrbot_gazebo/pos_control
+-- Set runtime path of "/overlay_ws/install/rrrbot_gazebo/lib/rrrbot_gazebo/pos_control" to ""
+-- Installing: /overlay_ws/install/rrrbot_gazebo/lib/rrrbot_gazebo/main_control
+-- Set runtime path of "/overlay_ws/install/rrrbot_gazebo/lib/rrrbot_gazebo/main_control" to ""
+-- Installing: /overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/launch
+-- Installing: /overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/launch/rrbot_world.launch.py
+-- Installing: /overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/worlds
+-- Installing: /overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/worlds/rrbot.world
+-- Installing: /overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/config
+-- Installing: /overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/config/controllers.yaml
+-- Installing: /overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/config/gazebo_controllers.yaml
+-- Installing: /overlay_ws/install/rrrbot_gazebo/share/ament_index/resource_index/package_run_dependencies/rrrbot_gazebo
+-- Installing: /overlay_ws/install/rrrbot_gazebo/share/ament_index/resource_index/parent_prefix_path/rrrbot_gazebo
+-- Installing: /overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/environment/ament_prefix_path.sh
+-- Installing: /overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/environment/ament_prefix_path.dsv
+-- Installing: /overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/environment/path.sh
+-- Installing: /overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/environment/path.dsv
+-- Installing: /overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/local_setup.bash
+-- Installing: /overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/local_setup.sh
+-- Installing: /overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/local_setup.zsh
+-- Installing: /overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/local_setup.dsv
+-- Installing: /overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/package.dsv
+-- Installing: /overlay_ws/install/rrrbot_gazebo/share/ament_index/resource_index/packages/rrrbot_gazebo
+-- Installing: /overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/cmake/rrrbot_gazeboConfig.cmake
+-- Installing: /overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/cmake/rrrbot_gazeboConfig-version.cmake
+-- Installing: /overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/package.xml

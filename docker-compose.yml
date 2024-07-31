@@ -1,0 +1,109 @@
+
+version: "3.9"
+services:
+  # Base image containing dependencies.
+  base:
+    image: rbe500hw23_image:base
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+      args:
+        ROS_DISTRO: humble
+      target: base
+    # Interactive shell
+    stdin_open: true
+    tty: true
+    # Networking and IPC for ROS 2
+    network_mode: host
+    ipc: host
+    # Needed to display graphical applications
+    privileged: True
+    environment:
+      # Allows graphical programs in the container.
+      - DISPLAY=${DISPLAY}
+      - QT_X11_NO_MITSHM=1
+      - NVIDIA_DRIVER_CAPABILITIES=all
+    volumes:
+      # Allows graphical programs in the container.
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      - ${XAUTHORITY:-$HOME/.Xauthority}:/root/.Xauthority
+
+  # Overlay image containing the source code.
+  overlay:
+    extends: base
+    image: rbe500hw23_image:overlay
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+      target: overlay
+
+  # Developer container
+  dev:
+    extends: overlay
+    image: rbe500hw23_image:dev
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+      target: dev
+      args:
+        - UID=${UID:-1000}
+        - GID=${UID:-1000}
+        - USERNAME=${USERNAME:-devuser}
+    volumes:
+      # Mount the source code
+      - ./src/rrbot_simulation_files:/overlay_ws/src/rrbot_simulation_files:rw
+      - ./src/tutorial_interfaces:/overlay_ws/src/tutorial_interfaces:rw
+      # Mount colcon build artifacts for faster rebuilds
+      - ./.colcon/build/:/overlay_ws/build/:rw
+      - ./.colcon/install/:/overlay_ws/install/:rw
+      - ./.colcon/log/:/overlay_ws/log/:rw
+    user: ${USERNAME:-devuser}
+    command: sleep infinity
+
+  # Open Gazebo simulation
+  sim:
+    extends: overlay
+    command: ros2 launch rrrbot_gazebo rrbot_world.launch.py
+  # Switch to effort controller
+  effort-controller:
+    extends: overlay
+    command: ros2 run rrrbot_gazebo switch
+
+  # Perform service call
+  position-control-servicecall:
+    extends: overlay
+    command: > 
+      ros2 service call position_control tutorial_interfaces/srv/PositionControl "{joint1_ref: 0.5, joint2_ref: 1.57, joint3_ref: -0.2}"
+
+  # Run the position controller
+  pos-control:
+    extends: overlay
+    command: ros2 run rrrbot_gazebo pos_control
+  
+  main-controller:
+    extends: overlay
+    command: ros2 run rrrbot_gazebo main_control
+  
+  # HW3 commands
+  initial-position:
+    extends: overlay
+    command: ros2 run rrrbot_gazebo publisher
+  joint-to-endeffector:
+    extends: overlay
+    command: >
+      ros2 service call joint_to_end tutorial_interfaces/srv/JointToEnd "{j1vel_ref: 4.14094, j2vel_ref: -5.781005, j3vel_ref: 0}"
+  velocity-kinematics:
+    extends: overlay
+    command: ros2 run rrrbot_gazebo vel_kinematics
+  endeffector-to-joint:
+    extends: overlay
+    command: >
+      ros2 service call end_to_joint tutorial_interfaces/srv/EndToJoint "{vx_ref: 0, vy_ref: 2, vz_ref: 0, omx_ref: 0, omy_ref: 0, omz_ref: 0}"
+  joint-to-endeffector2:
+    extends: overlay
+    command: >
+      ros2 service call joint_to_end tutorial_interfaces/srv/JointToEnd "{j1vel_ref: 1.65632, j2vel_ref: -2.312402, j3vel_ref: 0}"
+  velocity-control:
+    extends: overlay
+    command: ros2 run rrrbot_gazebo velocity_control
+

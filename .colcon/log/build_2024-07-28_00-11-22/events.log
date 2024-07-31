@@ -1,0 +1,646 @@
+[0.000000] (-) TimerEvent: {}
+[0.000346] (rrbot_description) JobQueued: {'identifier': 'rrbot_description', 'dependencies': OrderedDict()}
+[0.000398] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.000422] (rrrbot_gazebo) JobQueued: {'identifier': 'rrrbot_gazebo', 'dependencies': OrderedDict([('rrbot_description', '/overlay_ws/install/rrbot_description'), ('tutorial_interfaces', '/overlay_ws/install/tutorial_interfaces')])}
+[0.000461] (rrbot_description) JobStarted: {'identifier': 'rrbot_description'}
+[0.068963] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.076992] (rrbot_description) JobProgress: {'identifier': 'rrbot_description', 'progress': 'cmake'}
+[0.077437] (rrbot_description) Command: {'cmd': ['/usr/bin/cmake', '/overlay_ws/src/rrbot_simulation_files/rrbot_description', '-DCMAKE_INSTALL_PREFIX=/overlay_ws/install/rrbot_description'], 'cwd': '/overlay_ws/build/rrbot_description', 'env': OrderedDict([('HOSTNAME', 'Chaitanya'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/devuser'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/rbe500hw2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/overlay_ws/build/rrbot_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.117605] (-) TimerEvent: {}
+[0.117832] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[0.119305] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/overlay_ws/src/tutorial_interfaces', '-DCMAKE_INSTALL_PREFIX=/overlay_ws/install/tutorial_interfaces'], 'cwd': '/overlay_ws/build/tutorial_interfaces', 'env': OrderedDict([('HOSTNAME', 'Chaitanya'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/devuser'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/rbe500hw2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/overlay_ws/build/tutorial_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.217776] (-) TimerEvent: {}
+[0.318304] (-) TimerEvent: {}
+[0.418720] (-) TimerEvent: {}
+[0.519294] (-) TimerEvent: {}
+[0.620056] (-) TimerEvent: {}
+[0.720579] (-) TimerEvent: {}
+[0.821141] (-) TimerEvent: {}
+[0.921828] (-) TimerEvent: {}
+[1.022333] (-) TimerEvent: {}
+[1.123043] (-) TimerEvent: {}
+[1.223777] (-) TimerEvent: {}
+[1.324574] (-) TimerEvent: {}
+[1.425530] (-) TimerEvent: {}
+[1.488073] (tutorial_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.488476] (rrbot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.525687] (-) TimerEvent: {}
+[1.626352] (-) TimerEvent: {}
+[1.727339] (-) TimerEvent: {}
+[1.828517] (-) TimerEvent: {}
+[1.929192] (-) TimerEvent: {}
+[2.002831] (rrbot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.003241] (tutorial_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.023001] (rrbot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.023310] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.029432] (-) TimerEvent: {}
+[2.129840] (-) TimerEvent: {}
+[2.230400] (-) TimerEvent: {}
+[2.261062] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.261226] (rrbot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.268098] (rrbot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.268444] (tutorial_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.268947] (rrbot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.269099] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.282054] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.282377] (rrbot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.291097] (rrbot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.291400] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.330578] (-) TimerEvent: {}
+[2.385341] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.389770] (rrbot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.392454] (tutorial_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.392703] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.393156] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.400379] (rrbot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.400637] (rrbot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.401071] (rrbot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.430894] (-) TimerEvent: {}
+[2.531324] (-) TimerEvent: {}
+[2.532319] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.532582] (rrbot_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.631645] (-) TimerEvent: {}
+[2.732012] (-) TimerEvent: {}
+[2.789607] (rrbot_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.789921] (tutorial_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.832182] (-) TimerEvent: {}
+[2.932800] (-) TimerEvent: {}
+[3.033245] (-) TimerEvent: {}
+[3.133797] (-) TimerEvent: {}
+[3.182720] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.233962] (-) TimerEvent: {}
+[3.255092] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.262163] (rrbot_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.265854] (rrbot_description) StdoutLine: {'line': b'-- Generating done\n'}
+[3.266587] (rrbot_description) StdoutLine: {'line': b'-- Build files have been written to: /overlay_ws/build/rrbot_description\n'}
+[3.270496] (rrbot_description) CommandEnded: {'returncode': 0}
+[3.272512] (rrbot_description) JobProgress: {'identifier': 'rrbot_description', 'progress': 'build'}
+[3.272593] (rrbot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/overlay_ws/build/rrbot_description', '--', '-j12', '-l12'], 'cwd': '/overlay_ws/build/rrbot_description', 'env': OrderedDict([('HOSTNAME', 'Chaitanya'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/devuser'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/rbe500hw2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/overlay_ws/build/rrbot_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.307442] (rrbot_description) CommandEnded: {'returncode': 0}
+[3.330409] (rrbot_description) JobProgress: {'identifier': 'rrbot_description', 'progress': 'install'}
+[3.334104] (-) TimerEvent: {}
+[3.338775] (rrbot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/overlay_ws/build/rrbot_description'], 'cwd': '/overlay_ws/build/rrbot_description', 'env': OrderedDict([('HOSTNAME', 'Chaitanya'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/devuser'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/rbe500hw2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/overlay_ws/build/rrbot_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.344234] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.346864] (rrbot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.347056] (rrbot_description) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrbot_description/share/rrbot_description/config\n'}
+[3.347598] (rrbot_description) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrbot_description/share/rrbot_description/config/rrbot.rviz\n'}
+[3.356997] (rrbot_description) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrbot_description/share/rrbot_description/gazebo\n'}
+[3.357240] (rrbot_description) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrbot_description/share/rrbot_description/gazebo/rrbot.materials.xacro\n'}
+[3.358108] (rrbot_description) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrbot_description/share/rrbot_description/gazebo/rrbot.gazebo.xacro\n'}
+[3.358639] (rrbot_description) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrbot_description/share/rrbot_description/meshes\n'}
+[3.358930] (rrbot_description) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrbot_description/share/rrbot_description/meshes/hokuyo.dae\n'}
+[3.389025] (rrbot_description) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrbot_description/share/rrbot_description/launch\n'}
+[3.389346] (rrbot_description) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrbot_description/share/rrbot_description/launch/view_robot.launch.py\n'}
+[3.389780] (rrbot_description) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrbot_description/share/rrbot_description/ros2_control\n'}
+[3.390010] (rrbot_description) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrbot_description/share/rrbot_description/ros2_control/rrbot.ros2_control.xacro\n'}
+[3.390467] (rrbot_description) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrbot_description/share/rrbot_description/urdf\n'}
+[3.390757] (rrbot_description) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot.urdf.xacro\n'}
+[3.392380] (rrbot_description) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot_description.urdf.xacro\n'}
+[3.393057] (rrbot_description) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrbot_description/share/rrbot_description/environment/rrbot_description.dsv\n'}
+[3.393585] (rrbot_description) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrbot_description/share/ament_index/resource_index/package_run_dependencies/rrbot_description\n'}
+[3.393920] (rrbot_description) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrbot_description/share/ament_index/resource_index/parent_prefix_path/rrbot_description\n'}
+[3.394155] (rrbot_description) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrbot_description/share/rrbot_description/environment/ament_prefix_path.sh\n'}
+[3.394445] (rrbot_description) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrbot_description/share/rrbot_description/environment/ament_prefix_path.dsv\n'}
+[3.394610] (rrbot_description) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrbot_description/share/rrbot_description/environment/path.sh\n'}
+[3.394709] (rrbot_description) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrbot_description/share/rrbot_description/environment/path.dsv\n'}
+[3.394999] (rrbot_description) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrbot_description/share/rrbot_description/local_setup.bash\n'}
+[3.395233] (rrbot_description) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrbot_description/share/rrbot_description/local_setup.sh\n'}
+[3.395333] (rrbot_description) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrbot_description/share/rrbot_description/local_setup.zsh\n'}
+[3.395506] (rrbot_description) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrbot_description/share/rrbot_description/local_setup.dsv\n'}
+[3.395597] (rrbot_description) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrbot_description/share/rrbot_description/package.dsv\n'}
+[3.395785] (rrbot_description) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrbot_description/share/ament_index/resource_index/packages/rrbot_description\n'}
+[3.395981] (rrbot_description) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrbot_description/share/rrbot_description/cmake/rrbot_descriptionConfig.cmake\n'}
+[3.396191] (rrbot_description) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrbot_description/share/rrbot_description/cmake/rrbot_descriptionConfig-version.cmake\n'}
+[3.396439] (rrbot_description) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrbot_description/share/rrbot_description/package.xml\n'}
+[3.398282] (rrbot_description) CommandEnded: {'returncode': 0}
+[3.434224] (-) TimerEvent: {}
+[3.534974] (-) TimerEvent: {}
+[3.621001] (rrbot_description) JobEnded: {'identifier': 'rrbot_description', 'rc': 0}
+[3.635117] (-) TimerEvent: {}
+[3.735591] (-) TimerEvent: {}
+[3.832916] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.835749] (-) TimerEvent: {}
+[3.936087] (-) TimerEvent: {}
+[4.036601] (-) TimerEvent: {}
+[4.137054] (-) TimerEvent: {}
+[4.237562] (-) TimerEvent: {}
+[4.244519] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[4.337708] (-) TimerEvent: {}
+[4.426970] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.437851] (-) TimerEvent: {}
+[4.538204] (-) TimerEvent: {}
+[4.638512] (-) TimerEvent: {}
+[4.654385] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.738718] (-) TimerEvent: {}
+[4.839146] (-) TimerEvent: {}
+[4.862958] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[4.939339] (-) TimerEvent: {}
+[4.971579] (tutorial_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[5.039570] (-) TimerEvent: {}
+[5.140088] (-) TimerEvent: {}
+[5.231005] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[5.231324] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.231479] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[5.231598] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[5.240185] (-) TimerEvent: {}
+[5.255144] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[5.291642] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.340317] (-) TimerEvent: {}
+[5.357859] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.429507] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.440640] (-) TimerEvent: {}
+[5.473034] (tutorial_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.517766] (tutorial_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[5.521376] (tutorial_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /overlay_ws/build/tutorial_interfaces\n'}
+[5.527768] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[5.529639] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'build'}
+[5.530069] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/overlay_ws/build/tutorial_interfaces', '--', '-j12', '-l12'], 'cwd': '/overlay_ws/build/tutorial_interfaces', 'env': OrderedDict([('HOSTNAME', 'Chaitanya'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/devuser'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/rbe500hw2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/overlay_ws/build/tutorial_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.540786] (-) TimerEvent: {}
+[5.571630] (tutorial_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.581927] (tutorial_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.591772] (tutorial_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_tutorial_interfaces\n'}
+[5.640899] (-) TimerEvent: {}
+[5.741265] (-) TimerEvent: {}
+[5.841599] (-) TimerEvent: {}
+[5.876243] (tutorial_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[5.876828] (tutorial_interfaces) StdoutLine: {'line': b'creating tutorial_interfaces.egg-info\n'}
+[5.877285] (tutorial_interfaces) StdoutLine: {'line': b'writing tutorial_interfaces.egg-info/PKG-INFO\n'}
+[5.877510] (tutorial_interfaces) StdoutLine: {'line': b'writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt\n'}
+[5.877782] (tutorial_interfaces) StdoutLine: {'line': b'writing top-level names to tutorial_interfaces.egg-info/top_level.txt\n'}
+[5.877892] (tutorial_interfaces) StdoutLine: {'line': b"writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[5.881134] (tutorial_interfaces) StdoutLine: {'line': b"reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[5.881610] (tutorial_interfaces) StdoutLine: {'line': b"writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[5.906336] (tutorial_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_tutorial_interfaces_egg\n'}
+[5.938401] (tutorial_interfaces) StdoutLine: {'line': b'[  6%] Built target tutorial_interfaces__cpp\n'}
+[5.941698] (-) TimerEvent: {}
+[5.948586] (tutorial_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.948887] (tutorial_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.949060] (tutorial_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[6.029909] (tutorial_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/position_control__functions.c.o\x1b[0m\n'}
+[6.041817] (-) TimerEvent: {}
+[6.142175] (-) TimerEvent: {}
+[6.242552] (-) TimerEvent: {}
+[6.245194] (tutorial_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/position_control__type_support.cpp.o\x1b[0m\n'}
+[6.268542] (tutorial_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/position_control__type_support.cpp.o\x1b[0m\n'}
+[6.279903] (tutorial_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[6.291420] (tutorial_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/position_control__type_support.cpp.o\x1b[0m\n'}
+[6.327630] (tutorial_interfaces) StdoutLine: {'line': b'[ 32%] Built target tutorial_interfaces__rosidl_generator_c\n'}
+[6.337805] (tutorial_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[6.338096] (tutorial_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.338238] (tutorial_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.342711] (-) TimerEvent: {}
+[6.443155] (-) TimerEvent: {}
+[6.543621] (-) TimerEvent: {}
+[6.644151] (-) TimerEvent: {}
+[6.720462] (tutorial_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/position_control__type_support.cpp.o\x1b[0m\n'}
+[6.744345] (-) TimerEvent: {}
+[6.771564] (tutorial_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/position_control__type_support_c.cpp.o\x1b[0m\n'}
+[6.774492] (tutorial_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/position_control__type_support.c.o\x1b[0m\n'}
+[6.814659] (tutorial_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.844513] (-) TimerEvent: {}
+[6.848598] (tutorial_interfaces) StdoutLine: {'line': b'[ 54%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c\n'}
+[6.907647] (tutorial_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.944665] (-) TimerEvent: {}
+[6.947532] (tutorial_interfaces) StdoutLine: {'line': b'[ 58%] Built target tutorial_interfaces__rosidl_typesupport_c\n'}
+[7.044833] (-) TimerEvent: {}
+[7.052993] (tutorial_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.110601] (tutorial_interfaces) StdoutLine: {'line': b'[ 61%] Built target tutorial_interfaces__rosidl_typesupport_cpp\n'}
+[7.145011] (-) TimerEvent: {}
+[7.245431] (-) TimerEvent: {}
+[7.260641] (tutorial_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.271756] (tutorial_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.288606] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.343025] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[7.345608] (-) TimerEvent: {}
+[7.360985] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[7.364309] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[7.382546] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] Built target tutorial_interfaces\n'}
+[7.400762] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.445747] (-) TimerEvent: {}
+[7.546138] (-) TimerEvent: {}
+[7.646495] (-) TimerEvent: {}
+[7.728911] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] Built target tutorial_interfaces__py\n'}
+[7.746655] (-) TimerEvent: {}
+[7.747361] (tutorial_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/srv/_position_control_s.c.o\x1b[0m\n'}
+[7.846792] (-) TimerEvent: {}
+[7.947145] (-) TimerEvent: {}
+[8.015214] (tutorial_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[8.047324] (-) TimerEvent: {}
+[8.050822] (tutorial_interfaces) StdoutLine: {'line': b'[ 80%] Built target tutorial_interfaces__rosidl_generator_py\n'}
+[8.070266] (tutorial_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[8.071158] (tutorial_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[8.071304] (tutorial_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[8.147488] (-) TimerEvent: {}
+[8.161620] (tutorial_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.161829] (tutorial_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.167216] (tutorial_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.193364] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[8.193596] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext\n'}
+[8.200243] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.211042] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[8.247638] (-) TimerEvent: {}
+[8.273645] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'install'}
+[8.275045] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/overlay_ws/build/tutorial_interfaces'], 'cwd': '/overlay_ws/build/tutorial_interfaces', 'env': OrderedDict([('HOSTNAME', 'Chaitanya'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/devuser'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/rbe500hw2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/overlay_ws/build/tutorial_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[8.281462] (tutorial_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.282180] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces\n'}
+[8.282457] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[8.282690] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[8.282931] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[8.283262] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[8.283387] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/position_control.h\n'}
+[8.283466] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[8.283662] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/position_control__struct.h\n'}
+[8.283757] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/position_control__functions.h\n'}
+[8.283997] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/position_control__functions.c\n'}
+[8.284081] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/position_control__type_support.h\n'}
+[8.284356] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh\n'}
+[8.284582] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv\n'}
+[8.284810] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so\n'}
+[8.285300] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/overlay_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""\n'}
+[8.285503] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /overlay_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[8.285732] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /overlay_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[8.285887] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[8.286012] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /overlay_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[8.286202] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /overlay_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[8.286406] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/position_control__rosidl_typesupport_fastrtps_c.h\n'}
+[8.286632] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[8.286724] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/overlay_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[8.286869] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /overlay_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[8.287084] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /overlay_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[8.287186] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[8.287408] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /overlay_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[8.287483] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /overlay_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[8.287627] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/position_control__type_support.c\n'}
+[8.287791] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/position_control__rosidl_typesupport_introspection_c.h\n'}
+[8.288137] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[8.288429] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/overlay_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[8.288584] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so\n'}
+[8.288750] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/overlay_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[8.289018] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /overlay_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[8.289111] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /overlay_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[8.289176] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/position_control.hpp\n'}
+[8.289260] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /overlay_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[8.289336] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/position_control__traits.hpp\n'}
+[8.289500] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/position_control__struct.hpp\n'}
+[8.289660] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/position_control__builder.hpp\n'}
+[8.289821] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /overlay_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[8.290058] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /overlay_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[8.290134] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[8.290197] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /overlay_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[8.290400] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /overlay_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[8.290477] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/dds_fastrtps\n'}
+[8.290540] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/position_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.290606] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.290786] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/overlay_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[8.290999] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /overlay_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[8.291112] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /overlay_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[8.291178] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /overlay_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[8.291239] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/position_control__type_support.cpp\n'}
+[8.291297] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/position_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.291355] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[8.291413] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/overlay_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[8.291469] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so\n'}
+[8.291527] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/overlay_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[8.291703] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh\n'}
+[8.291925] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv\n'}
+[8.292113] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info\n'}
+[8.292408] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[8.292718] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[8.292851] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[8.292984] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[8.293240] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces\n'}
+[8.293491] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so\n'}
+[8.293718] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[8.293943] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[8.294022] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv\n'}
+[8.294085] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/__init__.py\n'}
+[8.294144] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_position_control.py\n'}
+[8.294204] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_position_control_s.c\n'}
+[8.294262] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[8.294320] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.294377] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.294435] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py\n'}
+[8.294492] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.339663] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/overlay_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces'...\n"}
+[8.339852] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/overlay_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py'...\n"}
+[8.339922] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/overlay_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv'...\n"}
+[8.339998] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/overlay_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/__init__.py'...\n"}
+[8.340069] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/overlay_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_position_control.py'...\n"}
+[8.343635] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.344002] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/overlay_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.344221] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.344592] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/overlay_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.344772] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.345270] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/overlay_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.345373] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so\n'}
+[8.345756] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/overlay_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so" to ""\n'}
+[8.346025] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/PositionControl.idl\n'}
+[8.346284] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/PositionControl.srv\n'}
+[8.346381] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/PositionControl_Request.msg\n'}
+[8.346588] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/PositionControl_Response.msg\n'}
+[8.346835] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces\n'}
+[8.347109] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces\n'}
+[8.347208] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh\n'}
+[8.347400] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv\n'}
+[8.347621] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh\n'}
+[8.347811] (-) TimerEvent: {}
+[8.347963] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv\n'}
+[8.348198] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash\n'}
+[8.348353] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh\n'}
+[8.348519] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh\n'}
+[8.348681] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv\n'}
+[8.348967] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv\n'}
+[8.349136] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces\n'}
+[8.349300] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake\n'}
+[8.349545] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.350053] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[8.350459] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[8.350797] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.351045] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.351268] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[8.351553] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.351806] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake\n'}
+[8.352026] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[8.352383] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[8.352584] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.352961] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.353268] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[8.353559] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.353893] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake\n'}
+[8.354125] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[8.354192] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[8.354263] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.354322] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.354380] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.354438] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.354495] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.354558] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.354614] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake\n'}
+[8.354671] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake\n'}
+[8.354727] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.xml\n'}
+[8.356109] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[8.434051] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 0}
+[8.435453] (rrrbot_gazebo) JobStarted: {'identifier': 'rrrbot_gazebo'}
+[8.444932] (rrrbot_gazebo) JobProgress: {'identifier': 'rrrbot_gazebo', 'progress': 'cmake'}
+[8.446182] (rrrbot_gazebo) Command: {'cmd': ['/usr/bin/cmake', '/overlay_ws/src/rrbot_simulation_files/rrrbot_gazebo', '-DCMAKE_INSTALL_PREFIX=/overlay_ws/install/rrrbot_gazebo'], 'cwd': '/overlay_ws/build/rrrbot_gazebo', 'env': OrderedDict([('HOSTNAME', 'Chaitanya'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/overlay_ws/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/devuser'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/rbe500hw2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/overlay_ws/install/tutorial_interfaces:/overlay_ws/install/rrbot_description:/opt/ros/humble'), ('PWD', '/overlay_ws/build/rrrbot_gazebo'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/overlay_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/overlay_ws/install/tutorial_interfaces:/overlay_ws/install/rrbot_description:/opt/ros/humble')]), 'shell': False}
+[8.447939] (-) TimerEvent: {}
+[8.526508] (rrrbot_gazebo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[8.548097] (-) TimerEvent: {}
+[8.580329] (rrrbot_gazebo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[8.587021] (rrrbot_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[8.648275] (-) TimerEvent: {}
+[8.649369] (rrrbot_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[8.656803] (rrrbot_gazebo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[8.657127] (rrrbot_gazebo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[8.657402] (rrrbot_gazebo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[8.660230] (rrrbot_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[8.735827] (rrrbot_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[8.742705] (rrrbot_gazebo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[8.742969] (rrrbot_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[8.743417] (rrrbot_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[8.745996] (rrrbot_gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[8.748452] (-) TimerEvent: {}
+[8.848837] (-) TimerEvent: {}
+[8.883436] (rrrbot_gazebo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[8.949036] (-) TimerEvent: {}
+[9.049638] (-) TimerEvent: {}
+[9.150326] (-) TimerEvent: {}
+[9.251114] (-) TimerEvent: {}
+[9.313416] (rrrbot_gazebo) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[9.351367] (-) TimerEvent: {}
+[9.452298] (-) TimerEvent: {}
+[9.553288] (-) TimerEvent: {}
+[9.653885] (-) TimerEvent: {}
+[9.684234] (rrrbot_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[9.689719] (rrrbot_gazebo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[9.698394] (rrrbot_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[9.712033] (rrrbot_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.731999] (rrrbot_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.754121] (-) TimerEvent: {}
+[9.854544] (-) TimerEvent: {}
+[9.955135] (-) TimerEvent: {}
+[10.055777] (-) TimerEvent: {}
+[10.156823] (-) TimerEvent: {}
+[10.257677] (-) TimerEvent: {}
+[10.358283] (-) TimerEvent: {}
+[10.458751] (-) TimerEvent: {}
+[10.459403] (rrrbot_gazebo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[10.507885] (rrrbot_gazebo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[10.558937] (-) TimerEvent: {}
+[10.659536] (-) TimerEvent: {}
+[10.760120] (-) TimerEvent: {}
+[10.860950] (-) TimerEvent: {}
+[10.961498] (-) TimerEvent: {}
+[11.062035] (-) TimerEvent: {}
+[11.138572] (rrrbot_gazebo) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[11.162196] (-) TimerEvent: {}
+[11.194008] (rrrbot_gazebo) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[11.242861] (rrrbot_gazebo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[11.262387] (-) TimerEvent: {}
+[11.332041] (rrrbot_gazebo) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[11.362716] (-) TimerEvent: {}
+[11.406834] (rrrbot_gazebo) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[11.407343] (rrrbot_gazebo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[11.462873] (-) TimerEvent: {}
+[11.475329] (rrrbot_gazebo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[11.476372] (rrrbot_gazebo) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[11.563032] (-) TimerEvent: {}
+[11.663409] (-) TimerEvent: {}
+[11.706252] (rrrbot_gazebo) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[11.763168] (rrrbot_gazebo) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[11.763488] (-) TimerEvent: {}
+[11.863990] (-) TimerEvent: {}
+[11.871095] (rrrbot_gazebo) StdoutLine: {'line': b'-- Found tutorial_interfaces: 0.0.0 (/overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)\n'}
+[11.919443] (rrrbot_gazebo) StdoutLine: {'line': b'-- Found controller_manager_msgs: 2.41.0 (/opt/ros/humble/share/controller_manager_msgs/cmake)\n'}
+[11.964171] (-) TimerEvent: {}
+[12.064640] (-) TimerEvent: {}
+[12.120263] (rrrbot_gazebo) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.142095] (rrrbot_gazebo) StdoutLine: {'line': b'-- Generating done\n'}
+[12.144367] (rrrbot_gazebo) StdoutLine: {'line': b'-- Build files have been written to: /overlay_ws/build/rrrbot_gazebo\n'}
+[12.152902] (rrrbot_gazebo) CommandEnded: {'returncode': 0}
+[12.155058] (rrrbot_gazebo) JobProgress: {'identifier': 'rrrbot_gazebo', 'progress': 'build'}
+[12.155144] (rrrbot_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/overlay_ws/build/rrrbot_gazebo', '--', '-j12', '-l12'], 'cwd': '/overlay_ws/build/rrrbot_gazebo', 'env': OrderedDict([('HOSTNAME', 'Chaitanya'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/overlay_ws/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/devuser'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/rbe500hw2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/overlay_ws/install/tutorial_interfaces:/overlay_ws/install/rrbot_description:/opt/ros/humble'), ('PWD', '/overlay_ws/build/rrrbot_gazebo'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/overlay_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/overlay_ws/install/tutorial_interfaces:/overlay_ws/install/rrbot_description:/opt/ros/humble')]), 'shell': False}
+[12.164787] (-) TimerEvent: {}
+[12.207641] (rrrbot_gazebo) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/publisher.dir/src/position_publisher.cpp.o\x1b[0m\n'}
+[12.207984] (rrrbot_gazebo) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/pos_control.dir/src/position_control.cpp.o\x1b[0m\n'}
+[12.208298] (rrrbot_gazebo) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/switch.dir/src/controller_switch.cpp.o\x1b[0m\n'}
+[12.211828] (rrrbot_gazebo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/main_control.dir/src/main_controller.cpp.o\x1b[0m\n'}
+[12.265160] (-) TimerEvent: {}
+[12.365599] (-) TimerEvent: {}
+[12.465971] (-) TimerEvent: {}
+[12.566521] (-) TimerEvent: {}
+[12.667110] (-) TimerEvent: {}
+[12.767569] (-) TimerEvent: {}
+[12.867919] (-) TimerEvent: {}
+[12.968290] (-) TimerEvent: {}
+[13.068978] (-) TimerEvent: {}
+[13.169543] (-) TimerEvent: {}
+[13.270157] (-) TimerEvent: {}
+[13.370513] (-) TimerEvent: {}
+[13.471020] (-) TimerEvent: {}
+[13.571493] (-) TimerEvent: {}
+[13.671926] (-) TimerEvent: {}
+[13.772404] (-) TimerEvent: {}
+[13.872816] (-) TimerEvent: {}
+[13.973234] (-) TimerEvent: {}
+[14.073742] (-) TimerEvent: {}
+[14.174257] (-) TimerEvent: {}
+[14.274691] (-) TimerEvent: {}
+[14.375130] (-) TimerEvent: {}
+[14.475580] (-) TimerEvent: {}
+[14.576039] (-) TimerEvent: {}
+[14.676451] (-) TimerEvent: {}
+[14.777016] (-) TimerEvent: {}
+[14.877789] (-) TimerEvent: {}
+[14.978202] (-) TimerEvent: {}
+[15.078622] (-) TimerEvent: {}
+[15.179029] (-) TimerEvent: {}
+[15.279546] (-) TimerEvent: {}
+[15.380061] (-) TimerEvent: {}
+[15.480487] (-) TimerEvent: {}
+[15.581199] (-) TimerEvent: {}
+[15.681890] (-) TimerEvent: {}
+[15.782399] (-) TimerEvent: {}
+[15.882824] (-) TimerEvent: {}
+[15.983236] (-) TimerEvent: {}
+[16.083707] (-) TimerEvent: {}
+[16.184174] (-) TimerEvent: {}
+[16.284608] (-) TimerEvent: {}
+[16.385028] (-) TimerEvent: {}
+[16.485575] (-) TimerEvent: {}
+[16.586095] (-) TimerEvent: {}
+[16.686574] (-) TimerEvent: {}
+[16.786993] (-) TimerEvent: {}
+[16.887409] (-) TimerEvent: {}
+[16.987860] (-) TimerEvent: {}
+[17.088278] (-) TimerEvent: {}
+[17.188758] (-) TimerEvent: {}
+[17.289171] (-) TimerEvent: {}
+[17.389596] (-) TimerEvent: {}
+[17.490068] (-) TimerEvent: {}
+[17.525445] (rrrbot_gazebo) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable switch\x1b[0m\n'}
+[17.590232] (-) TimerEvent: {}
+[17.690685] (-) TimerEvent: {}
+[17.791299] (-) TimerEvent: {}
+[17.891774] (-) TimerEvent: {}
+[17.981864] (rrrbot_gazebo) StdoutLine: {'line': b'[ 62%] Built target switch\n'}
+[17.991913] (-) TimerEvent: {}
+[18.092333] (-) TimerEvent: {}
+[18.192736] (-) TimerEvent: {}
+[18.293150] (-) TimerEvent: {}
+[18.331304] (rrrbot_gazebo) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable publisher\x1b[0m\n'}
+[18.393340] (-) TimerEvent: {}
+[18.493799] (-) TimerEvent: {}
+[18.552717] (rrrbot_gazebo) StdoutLine: {'line': b'[ 75%] Built target publisher\n'}
+[18.593968] (-) TimerEvent: {}
+[18.694363] (-) TimerEvent: {}
+[18.794757] (-) TimerEvent: {}
+[18.895191] (-) TimerEvent: {}
+[18.995599] (-) TimerEvent: {}
+[19.095996] (-) TimerEvent: {}
+[19.196532] (-) TimerEvent: {}
+[19.297150] (-) TimerEvent: {}
+[19.397660] (-) TimerEvent: {}
+[19.498094] (-) TimerEvent: {}
+[19.598538] (-) TimerEvent: {}
+[19.698966] (-) TimerEvent: {}
+[19.799340] (-) TimerEvent: {}
+[19.899714] (-) TimerEvent: {}
+[20.000098] (-) TimerEvent: {}
+[20.101538] (-) TimerEvent: {}
+[20.202879] (-) TimerEvent: {}
+[20.303279] (-) TimerEvent: {}
+[20.403786] (-) TimerEvent: {}
+[20.504131] (-) TimerEvent: {}
+[20.604501] (-) TimerEvent: {}
+[20.704947] (-) TimerEvent: {}
+[20.805308] (-) TimerEvent: {}
+[20.905637] (-) TimerEvent: {}
+[21.006034] (-) TimerEvent: {}
+[21.106399] (-) TimerEvent: {}
+[21.206801] (-) TimerEvent: {}
+[21.307188] (-) TimerEvent: {}
+[21.407609] (-) TimerEvent: {}
+[21.508010] (-) TimerEvent: {}
+[21.608389] (-) TimerEvent: {}
+[21.708809] (-) TimerEvent: {}
+[21.809182] (-) TimerEvent: {}
+[21.909555] (-) TimerEvent: {}
+[22.009922] (-) TimerEvent: {}
+[22.110299] (-) TimerEvent: {}
+[22.210679] (-) TimerEvent: {}
+[22.311056] (-) TimerEvent: {}
+[22.411450] (-) TimerEvent: {}
+[22.511977] (-) TimerEvent: {}
+[22.612410] (-) TimerEvent: {}
+[22.712859] (-) TimerEvent: {}
+[22.813371] (-) TimerEvent: {}
+[22.913789] (-) TimerEvent: {}
+[23.014182] (-) TimerEvent: {}
+[23.114603] (-) TimerEvent: {}
+[23.215032] (-) TimerEvent: {}
+[23.315569] (-) TimerEvent: {}
+[23.416029] (-) TimerEvent: {}
+[23.516451] (-) TimerEvent: {}
+[23.616957] (-) TimerEvent: {}
+[23.717411] (-) TimerEvent: {}
+[23.817899] (-) TimerEvent: {}
+[23.918466] (-) TimerEvent: {}
+[24.019085] (-) TimerEvent: {}
+[24.119895] (-) TimerEvent: {}
+[24.207726] (rrrbot_gazebo) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable pos_control\x1b[0m\n'}
+[24.220050] (-) TimerEvent: {}
+[24.320463] (-) TimerEvent: {}
+[24.420885] (-) TimerEvent: {}
+[24.521322] (-) TimerEvent: {}
+[24.586307] (rrrbot_gazebo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable main_control\x1b[0m\n'}
+[24.621497] (-) TimerEvent: {}
+[24.722023] (-) TimerEvent: {}
+[24.822545] (-) TimerEvent: {}
+[24.923205] (-) TimerEvent: {}
+[25.023712] (-) TimerEvent: {}
+[25.124515] (-) TimerEvent: {}
+[25.225120] (-) TimerEvent: {}
+[25.325591] (-) TimerEvent: {}
+[25.412166] (rrrbot_gazebo) StdoutLine: {'line': b'[100%] Built target pos_control\n'}
+[25.425782] (-) TimerEvent: {}
+[25.438699] (rrrbot_gazebo) StdoutLine: {'line': b'[100%] Built target main_control\n'}
+[25.452668] (rrrbot_gazebo) CommandEnded: {'returncode': 0}
+[25.489676] (rrrbot_gazebo) JobProgress: {'identifier': 'rrrbot_gazebo', 'progress': 'install'}
+[25.490555] (rrrbot_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/overlay_ws/build/rrrbot_gazebo'], 'cwd': '/overlay_ws/build/rrrbot_gazebo', 'env': OrderedDict([('HOSTNAME', 'Chaitanya'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/overlay_ws/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/devuser'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/rbe500hw2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/overlay_ws/install/tutorial_interfaces:/overlay_ws/install/rrbot_description:/opt/ros/humble'), ('PWD', '/overlay_ws/build/rrrbot_gazebo'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/overlay_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/overlay_ws/install/tutorial_interfaces:/overlay_ws/install/rrbot_description:/opt/ros/humble')]), 'shell': False}
+[25.498267] (rrrbot_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.498718] (rrrbot_gazebo) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrrbot_gazebo/lib/rrrbot_gazebo/publisher\n'}
+[25.500049] (rrrbot_gazebo) StdoutLine: {'line': b'-- Set runtime path of "/overlay_ws/install/rrrbot_gazebo/lib/rrrbot_gazebo/publisher" to ""\n'}
+[25.500253] (rrrbot_gazebo) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrrbot_gazebo/lib/rrrbot_gazebo/switch\n'}
+[25.501043] (rrrbot_gazebo) StdoutLine: {'line': b'-- Set runtime path of "/overlay_ws/install/rrrbot_gazebo/lib/rrrbot_gazebo/switch" to ""\n'}
+[25.501280] (rrrbot_gazebo) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrrbot_gazebo/lib/rrrbot_gazebo/pos_control\n'}
+[25.504719] (rrrbot_gazebo) StdoutLine: {'line': b'-- Set runtime path of "/overlay_ws/install/rrrbot_gazebo/lib/rrrbot_gazebo/pos_control" to ""\n'}
+[25.504853] (rrrbot_gazebo) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrrbot_gazebo/lib/rrrbot_gazebo/main_control\n'}
+[25.508758] (rrrbot_gazebo) StdoutLine: {'line': b'-- Set runtime path of "/overlay_ws/install/rrrbot_gazebo/lib/rrrbot_gazebo/main_control" to ""\n'}
+[25.508902] (rrrbot_gazebo) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/launch\n'}
+[25.509272] (rrrbot_gazebo) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/launch/rrbot_world.launch.py\n'}
+[25.525927] (-) TimerEvent: {}
+[25.577042] (rrrbot_gazebo) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/worlds\n'}
+[25.577642] (rrrbot_gazebo) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/worlds/rrbot.world\n'}
+[25.578411] (rrrbot_gazebo) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/config\n'}
+[25.579026] (rrrbot_gazebo) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/config/controllers.yaml\n'}
+[25.580511] (rrrbot_gazebo) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/config/gazebo_controllers.yaml\n'}
+[25.626092] (-) TimerEvent: {}
+[25.632113] (rrrbot_gazebo) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrrbot_gazebo/share/ament_index/resource_index/package_run_dependencies/rrrbot_gazebo\n'}
+[25.632475] (rrrbot_gazebo) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrrbot_gazebo/share/ament_index/resource_index/parent_prefix_path/rrrbot_gazebo\n'}
+[25.632700] (rrrbot_gazebo) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/environment/ament_prefix_path.sh\n'}
+[25.632901] (rrrbot_gazebo) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/environment/ament_prefix_path.dsv\n'}
+[25.633103] (rrrbot_gazebo) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/environment/path.sh\n'}
+[25.633222] (rrrbot_gazebo) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/environment/path.dsv\n'}
+[25.633384] (rrrbot_gazebo) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/local_setup.bash\n'}
+[25.633599] (rrrbot_gazebo) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/local_setup.sh\n'}
+[25.633705] (rrrbot_gazebo) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/local_setup.zsh\n'}
+[25.633823] (rrrbot_gazebo) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/local_setup.dsv\n'}
+[25.634093] (rrrbot_gazebo) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/package.dsv\n'}
+[25.634190] (rrrbot_gazebo) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrrbot_gazebo/share/ament_index/resource_index/packages/rrrbot_gazebo\n'}
+[25.634364] (rrrbot_gazebo) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/cmake/rrrbot_gazeboConfig.cmake\n'}
+[25.634590] (rrrbot_gazebo) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/cmake/rrrbot_gazeboConfig-version.cmake\n'}
+[25.634664] (rrrbot_gazebo) StdoutLine: {'line': b'-- Installing: /overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/package.xml\n'}
+[25.636777] (rrrbot_gazebo) CommandEnded: {'returncode': 0}
+[25.686275] (rrrbot_gazebo) JobEnded: {'identifier': 'rrrbot_gazebo', 'rc': 0}
+[25.687750] (-) EventReactorShutdown: {}

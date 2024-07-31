@@ -1,0 +1,292 @@
+[0.299s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.299s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f9ad58a8490>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9ad5883fa0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9ad5883fa0>>, mixin_verb=('build',))
+[3.682s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.682s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.682s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.682s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.682s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.682s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.682s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/overlay_ws'
+[3.682s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.682s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.683s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.683s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.683s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.683s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.683s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.683s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.683s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.693s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.693s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.693s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.693s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.693s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.693s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.693s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.693s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.693s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.694s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.694s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.694s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.694s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.694s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.754s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.754s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.755s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.755s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.755s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.755s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.755s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.755s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.755s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.755s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.756s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.756s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.756s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.756s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files) by extensions ['ignore', 'ignore_ament_install']
+[3.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files) by extension 'ignore'
+[3.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files) by extension 'ignore_ament_install'
+[3.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files) by extensions ['colcon_pkg']
+[3.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files) by extension 'colcon_pkg'
+[3.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files) by extensions ['colcon_meta']
+[3.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files) by extension 'colcon_meta'
+[3.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files) by extensions ['ros']
+[3.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files) by extension 'ros'
+[3.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files) by extensions ['cmake', 'python']
+[3.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files) by extension 'cmake'
+[3.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files) by extension 'python'
+[3.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files) by extensions ['python_setup_py']
+[3.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files) by extension 'python_setup_py'
+[3.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_description) by extensions ['ignore', 'ignore_ament_install']
+[3.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_description) by extension 'ignore'
+[3.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_description) by extension 'ignore_ament_install'
+[3.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_description) by extensions ['colcon_pkg']
+[3.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_description) by extension 'colcon_pkg'
+[3.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_description) by extensions ['colcon_meta']
+[3.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_description) by extension 'colcon_meta'
+[3.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_description) by extensions ['ros']
+[3.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrbot_description) by extension 'ros'
+[3.778s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rrbot_simulation_files/rrbot_description' with type 'ros.ament_cmake' and name 'rrbot_description'
+[3.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrrbot_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[3.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrrbot_gazebo) by extension 'ignore'
+[3.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrrbot_gazebo) by extension 'ignore_ament_install'
+[3.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrrbot_gazebo) by extensions ['colcon_pkg']
+[3.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrrbot_gazebo) by extension 'colcon_pkg'
+[3.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrrbot_gazebo) by extensions ['colcon_meta']
+[3.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrrbot_gazebo) by extension 'colcon_meta'
+[3.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrrbot_gazebo) by extensions ['ros']
+[3.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrbot_simulation_files/rrrbot_gazebo) by extension 'ros'
+[3.792s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rrbot_simulation_files/rrrbot_gazebo' with type 'ros.ament_cmake' and name 'rrrbot_gazebo'
+[3.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[3.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ignore'
+[3.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ignore_ament_install'
+[3.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['colcon_pkg']
+[3.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'colcon_pkg'
+[3.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['colcon_meta']
+[3.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'colcon_meta'
+[3.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['ros']
+[3.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ros'
+[3.794s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tutorial_interfaces' with type 'ros.ament_cmake' and name 'tutorial_interfaces'
+[3.794s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.794s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.794s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.794s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.794s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.941s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'cmake_args' from command line to 'None'
+[3.941s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'cmake_target' from command line to 'None'
+[3.941s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.941s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[3.941s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[3.941s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[3.941s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[3.941s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[3.941s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.941s] DEBUG:colcon.colcon_core.verb:Building package 'rrbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/overlay_ws/build/rrbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/overlay_ws/install/rrbot_description', 'merge_install': False, 'path': '/overlay_ws/src/rrbot_simulation_files/rrbot_description', 'symlink_install': False, 'test_result_base': None}
+[3.941s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_args' from command line to 'None'
+[3.941s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_target' from command line to 'None'
+[3.941s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.941s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[3.941s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[3.941s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[3.941s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[3.941s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[3.941s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.942s] DEBUG:colcon.colcon_core.verb:Building package 'tutorial_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/overlay_ws/build/tutorial_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/overlay_ws/install/tutorial_interfaces', 'merge_install': False, 'path': '/overlay_ws/src/tutorial_interfaces', 'symlink_install': False, 'test_result_base': None}
+[3.942s] Level 5:colcon.colcon_core.verb:set package 'rrrbot_gazebo' build argument 'cmake_args' from command line to 'None'
+[3.942s] Level 5:colcon.colcon_core.verb:set package 'rrrbot_gazebo' build argument 'cmake_target' from command line to 'None'
+[3.942s] Level 5:colcon.colcon_core.verb:set package 'rrrbot_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.942s] Level 5:colcon.colcon_core.verb:set package 'rrrbot_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[3.942s] Level 5:colcon.colcon_core.verb:set package 'rrrbot_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[3.942s] Level 5:colcon.colcon_core.verb:set package 'rrrbot_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[3.942s] Level 5:colcon.colcon_core.verb:set package 'rrrbot_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[3.942s] Level 5:colcon.colcon_core.verb:set package 'rrrbot_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[3.942s] Level 5:colcon.colcon_core.verb:set package 'rrrbot_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.942s] DEBUG:colcon.colcon_core.verb:Building package 'rrrbot_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/overlay_ws/build/rrrbot_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/overlay_ws/install/rrrbot_gazebo', 'merge_install': False, 'path': '/overlay_ws/src/rrbot_simulation_files/rrrbot_gazebo', 'symlink_install': False, 'test_result_base': None}
+[3.942s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.943s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.944s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/overlay_ws/src/rrbot_simulation_files/rrbot_description' with build type 'ament_cmake'
+[3.944s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/overlay_ws/src/rrbot_simulation_files/rrbot_description'
+[3.954s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.954s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.954s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.012s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/overlay_ws/src/tutorial_interfaces' with build type 'ament_cmake'
+[4.012s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/overlay_ws/src/tutorial_interfaces'
+[4.012s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.012s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.061s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/overlay_ws/build/rrbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /overlay_ws/src/rrbot_simulation_files/rrbot_description -DCMAKE_INSTALL_PREFIX=/overlay_ws/install/rrbot_description
+[4.067s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/overlay_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /overlay_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/overlay_ws/install/tutorial_interfaces
+[7.215s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/overlay_ws/build/rrbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /overlay_ws/src/rrbot_simulation_files/rrbot_description -DCMAKE_INSTALL_PREFIX=/overlay_ws/install/rrbot_description
+[7.217s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/overlay_ws/build/rrbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /overlay_ws/build/rrbot_description -- -j12 -l12
+[7.252s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/overlay_ws/build/rrbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /overlay_ws/build/rrbot_description -- -j12 -l12
+[7.284s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/overlay_ws/build/rrbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /overlay_ws/build/rrbot_description
+[7.342s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrbot_description)
+[7.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/overlay_ws/build/rrbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /overlay_ws/build/rrbot_description
+[7.476s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/rrbot_description' for CMake module files
+[7.477s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/rrbot_description' for CMake config files
+[7.477s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrbot_description', 'cmake_prefix_path')
+[7.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/rrbot_description/share/rrbot_description/hook/cmake_prefix_path.ps1'
+[7.479s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/install/rrbot_description/share/rrbot_description/hook/cmake_prefix_path.dsv'
+[7.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/rrbot_description/share/rrbot_description/hook/cmake_prefix_path.sh'
+[7.515s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/rrbot_description/bin'
+[7.515s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/rrbot_description/lib/pkgconfig/rrbot_description.pc'
+[7.517s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/rrbot_description/lib/python3.10/site-packages'
+[7.517s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/rrbot_description/bin'
+[7.517s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/rrbot_description/share/rrbot_description/package.ps1'
+[7.519s] INFO:colcon.colcon_core.shell:Creating package descriptor '/overlay_ws/install/rrbot_description/share/rrbot_description/package.dsv'
+[7.520s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/rrbot_description/share/rrbot_description/package.sh'
+[7.522s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/rrbot_description/share/rrbot_description/package.bash'
+[7.526s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/rrbot_description/share/rrbot_description/package.zsh'
+[7.537s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/overlay_ws/install/rrbot_description/share/colcon-core/packages/rrbot_description)
+[7.560s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrbot_description)
+[7.560s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/rrbot_description' for CMake module files
+[7.560s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/rrbot_description' for CMake config files
+[7.561s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrbot_description', 'cmake_prefix_path')
+[7.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/rrbot_description/share/rrbot_description/hook/cmake_prefix_path.ps1'
+[7.561s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/install/rrbot_description/share/rrbot_description/hook/cmake_prefix_path.dsv'
+[7.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/rrbot_description/share/rrbot_description/hook/cmake_prefix_path.sh'
+[7.562s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/rrbot_description/bin'
+[7.562s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/rrbot_description/lib/pkgconfig/rrbot_description.pc'
+[7.562s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/rrbot_description/lib/python3.10/site-packages'
+[7.562s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/rrbot_description/bin'
+[7.563s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/rrbot_description/share/rrbot_description/package.ps1'
+[7.563s] INFO:colcon.colcon_core.shell:Creating package descriptor '/overlay_ws/install/rrbot_description/share/rrbot_description/package.dsv'
+[7.564s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/rrbot_description/share/rrbot_description/package.sh'
+[7.564s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/rrbot_description/share/rrbot_description/package.bash'
+[7.564s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/rrbot_description/share/rrbot_description/package.zsh'
+[7.565s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/overlay_ws/install/rrbot_description/share/colcon-core/packages/rrbot_description)
+[9.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/overlay_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /overlay_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/overlay_ws/install/tutorial_interfaces
+[9.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/overlay_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /overlay_ws/build/tutorial_interfaces -- -j12 -l12
+[12.156s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/overlay_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /overlay_ws/build/tutorial_interfaces -- -j12 -l12
+[12.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/overlay_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /overlay_ws/build/tutorial_interfaces
+[12.300s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tutorial_interfaces)
+[12.300s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/overlay_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /overlay_ws/build/tutorial_interfaces
+[12.301s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/tutorial_interfaces' for CMake module files
+[12.301s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/tutorial_interfaces' for CMake config files
+[12.302s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'cmake_prefix_path')
+[12.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.ps1'
+[12.302s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.dsv'
+[12.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.sh'
+[12.303s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/tutorial_interfaces/lib'
+[12.303s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'ld_library_path_lib')
+[12.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.ps1'
+[12.304s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.dsv'
+[12.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.sh'
+[12.304s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/tutorial_interfaces/bin'
+[12.304s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/tutorial_interfaces/lib/pkgconfig/tutorial_interfaces.pc'
+[12.304s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/tutorial_interfaces/lib/python3.10/site-packages'
+[12.305s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/tutorial_interfaces/bin'
+[12.305s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.ps1'
+[12.305s] INFO:colcon.colcon_core.shell:Creating package descriptor '/overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv'
+[12.306s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.sh'
+[12.306s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.bash'
+[12.306s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.zsh'
+[12.307s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/overlay_ws/install/tutorial_interfaces/share/colcon-core/packages/tutorial_interfaces)
+[12.371s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tutorial_interfaces)
+[12.371s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/tutorial_interfaces' for CMake module files
+[12.372s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/tutorial_interfaces' for CMake config files
+[12.372s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'cmake_prefix_path')
+[12.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.ps1'
+[12.373s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.dsv'
+[12.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.sh'
+[12.373s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/tutorial_interfaces/lib'
+[12.374s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'ld_library_path_lib')
+[12.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.ps1'
+[12.374s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.dsv'
+[12.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.sh'
+[12.375s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/tutorial_interfaces/bin'
+[12.375s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/tutorial_interfaces/lib/pkgconfig/tutorial_interfaces.pc'
+[12.375s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/tutorial_interfaces/lib/python3.10/site-packages'
+[12.375s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/tutorial_interfaces/bin'
+[12.375s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.ps1'
+[12.376s] INFO:colcon.colcon_core.shell:Creating package descriptor '/overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv'
+[12.376s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.sh'
+[12.377s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.bash'
+[12.377s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.zsh'
+[12.377s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/overlay_ws/install/tutorial_interfaces/share/colcon-core/packages/tutorial_interfaces)
+[12.378s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/overlay_ws/src/rrbot_simulation_files/rrrbot_gazebo' with build type 'ament_cmake'
+[12.378s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/overlay_ws/src/rrbot_simulation_files/rrrbot_gazebo'
+[12.379s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.379s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.391s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/overlay_ws/build/rrrbot_gazebo': AMENT_PREFIX_PATH=/overlay_ws/install/tutorial_interfaces:/overlay_ws/install/rrbot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/overlay_ws/install/tutorial_interfaces:/overlay_ws/install/rrbot_description:/opt/ros/humble LD_LIBRARY_PATH=/overlay_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/overlay_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /overlay_ws/src/rrbot_simulation_files/rrrbot_gazebo -DCMAKE_INSTALL_PREFIX=/overlay_ws/install/rrrbot_gazebo
+[16.097s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/overlay_ws/build/rrrbot_gazebo' returned '0': AMENT_PREFIX_PATH=/overlay_ws/install/tutorial_interfaces:/overlay_ws/install/rrbot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/overlay_ws/install/tutorial_interfaces:/overlay_ws/install/rrbot_description:/opt/ros/humble LD_LIBRARY_PATH=/overlay_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/overlay_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /overlay_ws/src/rrbot_simulation_files/rrrbot_gazebo -DCMAKE_INSTALL_PREFIX=/overlay_ws/install/rrrbot_gazebo
+[16.100s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/overlay_ws/build/rrrbot_gazebo': AMENT_PREFIX_PATH=/overlay_ws/install/tutorial_interfaces:/overlay_ws/install/rrbot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/overlay_ws/install/tutorial_interfaces:/overlay_ws/install/rrbot_description:/opt/ros/humble LD_LIBRARY_PATH=/overlay_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/overlay_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /overlay_ws/build/rrrbot_gazebo -- -j12 -l12
+[29.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/overlay_ws/build/rrrbot_gazebo' returned '0': AMENT_PREFIX_PATH=/overlay_ws/install/tutorial_interfaces:/overlay_ws/install/rrbot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/overlay_ws/install/tutorial_interfaces:/overlay_ws/install/rrbot_description:/opt/ros/humble LD_LIBRARY_PATH=/overlay_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/overlay_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /overlay_ws/build/rrrbot_gazebo -- -j12 -l12
+[29.436s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/overlay_ws/build/rrrbot_gazebo': AMENT_PREFIX_PATH=/overlay_ws/install/tutorial_interfaces:/overlay_ws/install/rrbot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/overlay_ws/install/tutorial_interfaces:/overlay_ws/install/rrbot_description:/opt/ros/humble LD_LIBRARY_PATH=/overlay_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/overlay_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /overlay_ws/build/rrrbot_gazebo
+[29.580s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrrbot_gazebo)
+[29.580s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/rrrbot_gazebo' for CMake module files
+[29.581s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/overlay_ws/build/rrrbot_gazebo' returned '0': AMENT_PREFIX_PATH=/overlay_ws/install/tutorial_interfaces:/overlay_ws/install/rrbot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/overlay_ws/install/tutorial_interfaces:/overlay_ws/install/rrbot_description:/opt/ros/humble LD_LIBRARY_PATH=/overlay_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/overlay_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /overlay_ws/build/rrrbot_gazebo
+[29.582s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/rrrbot_gazebo' for CMake config files
+[29.582s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrrbot_gazebo', 'cmake_prefix_path')
+[29.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/hook/cmake_prefix_path.ps1'
+[29.583s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/hook/cmake_prefix_path.dsv'
+[29.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/hook/cmake_prefix_path.sh'
+[29.584s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/rrrbot_gazebo/lib'
+[29.584s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/rrrbot_gazebo/bin'
+[29.584s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/rrrbot_gazebo/lib/pkgconfig/rrrbot_gazebo.pc'
+[29.584s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/rrrbot_gazebo/lib/python3.10/site-packages'
+[29.584s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/rrrbot_gazebo/bin'
+[29.584s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/package.ps1'
+[29.585s] INFO:colcon.colcon_core.shell:Creating package descriptor '/overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/package.dsv'
+[29.585s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/package.sh'
+[29.586s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/package.bash'
+[29.586s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/package.zsh'
+[29.586s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/overlay_ws/install/rrrbot_gazebo/share/colcon-core/packages/rrrbot_gazebo)
+[29.624s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrrbot_gazebo)
+[29.625s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/rrrbot_gazebo' for CMake module files
+[29.625s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/rrrbot_gazebo' for CMake config files
+[29.625s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrrbot_gazebo', 'cmake_prefix_path')
+[29.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/hook/cmake_prefix_path.ps1'
+[29.626s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/hook/cmake_prefix_path.dsv'
+[29.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/hook/cmake_prefix_path.sh'
+[29.627s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/rrrbot_gazebo/lib'
+[29.627s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/rrrbot_gazebo/bin'
+[29.627s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/rrrbot_gazebo/lib/pkgconfig/rrrbot_gazebo.pc'
+[29.627s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/rrrbot_gazebo/lib/python3.10/site-packages'
+[29.628s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/rrrbot_gazebo/bin'
+[29.628s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/package.ps1'
+[29.628s] INFO:colcon.colcon_core.shell:Creating package descriptor '/overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/package.dsv'
+[29.629s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/package.sh'
+[29.629s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/package.bash'
+[29.629s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/rrrbot_gazebo/share/rrrbot_gazebo/package.zsh'
+[29.630s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/overlay_ws/install/rrrbot_gazebo/share/colcon-core/packages/rrrbot_gazebo)
+[29.630s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[29.631s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[29.631s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[29.631s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[30.215s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[30.215s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[30.215s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[30.215s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[30.217s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[30.217s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[30.218s] INFO:colcon.colcon_core.shell:Creating prefix script '/overlay_ws/install/local_setup.ps1'
+[30.219s] INFO:colcon.colcon_core.shell:Creating prefix util module '/overlay_ws/install/_local_setup_util_ps1.py'
+[30.221s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/overlay_ws/install/setup.ps1'
+[30.223s] INFO:colcon.colcon_core.shell:Creating prefix script '/overlay_ws/install/local_setup.sh'
+[30.226s] INFO:colcon.colcon_core.shell:Creating prefix util module '/overlay_ws/install/_local_setup_util_sh.py'
+[30.227s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/overlay_ws/install/setup.sh'
+[30.229s] INFO:colcon.colcon_core.shell:Creating prefix script '/overlay_ws/install/local_setup.bash'
+[30.243s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/overlay_ws/install/setup.bash'
+[30.247s] INFO:colcon.colcon_core.shell:Creating prefix script '/overlay_ws/install/local_setup.zsh'
+[30.273s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/overlay_ws/install/setup.zsh'
