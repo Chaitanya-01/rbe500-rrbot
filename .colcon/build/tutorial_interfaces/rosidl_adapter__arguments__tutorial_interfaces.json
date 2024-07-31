@@ -1,6 +1,0 @@
-{
-  "package_name": "tutorial_interfaces",
-  "non_idl_tuples": [
-    "/overlay_ws/src/tutorial_interfaces:srv/PositionControl.srv"
-  ]
-}
